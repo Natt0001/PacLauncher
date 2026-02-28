@@ -535,7 +535,7 @@ local SubLabel = Inst("TextLabel", {
 	Font = Enum.Font.Gotham,
 	TextSize = 12,
 	TextXAlignment = Enum.TextXAlignment.Left,
-	Text = "v4 + AP"
+	Text = "v5.1 (add ap)"
 })
 ThemeBus:bind(SubLabel, "TextColor3", function(t) return t.SubText end)
 
